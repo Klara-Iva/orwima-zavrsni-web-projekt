@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+    <link rel="stylesheet" href="styles/navigation bar.css" />
+    <link rel="stylesheet" href="styles/about.css" />
+    <link rel="stylesheet" href="styles/contact.css" />
+  </head>
+
+  <body>
+    <header class="headerburg">
+      <img src="images/logow.png" alt="logo" width="120px" class="logo" />
+      <!-- Hamburger icon -->
+      <input class="side-menu" type="checkbox" id="side-menu" />
+      <label class="hamb" for="side-menu"
+        ><span class="hamb-line"></span
+      ></label>
+      <!-- Menu -->
+      <nav>
+        <ul class="menu">
+          <li><a href="about.html">about</a></li>
+          <li>
+            <a href="languages.html">languages</a>
+          </li>
+          <li>
+            <a href="gallery.html">photographs</a>
+          </li>
+          <li>
+            <a href="">contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="maincontact">
+      <div class="invitetocontact">
+        <p>
+          If you would like a photography session or a new website you can
+          contact me through the form below.
+        </p>
+        <p>I will answer as soon as I can!</p>
+      </div>
+
+      <div class="container">
+        <form>
+          <label for="fname">First Name</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Your name.."
+          />
+
+          <label for="lname">Last Name</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Your last name.."
+          />
+
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="undefined">I dont want to say</option>
+            <option value="croatia">Croatia</option>
+            <option value="spain">Spain</option>
+            <option value="england">United Kingdom</option>
+          </select>
+
+          <label for="subject">Subject</label>
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="State your wishes...."
+            style="height: 200px"
+          ></textarea>
+
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <ul>
+        <li>
+          <a href="https://web.facebook.com/klara.iva"
+            ><img src="images/face_ico.png" alt="Facebook"
+          /></a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com/"
+            ><img src="images/twit_ico.png" alt="Twitter"
+          /></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com"
+            ><img src="images/insta_ico.png" alt="Instagram"
+          /></a>
+        </li>
+      </ul>
+      <p>&copy Copyright 2022</p>
+    </footer>
+  </body>
+</html>
